@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <img src="menu.png" id="open"onclick = "openmenu()" alt=""> -->
+    <div class="nav-bar" id="nav">
+        <ul>
+        <img src="menu.png" id="close" onclick="openmenu()"alt="">
+         <li><span id ="span">Q</span>uotes.</li>
+         <li>Motivation</li>
+         <li>Sad</li>
+         <li>Life</li>
+         <li>Insperation</li>
+    </ul>
+</div>
+<h1> <span>Quotes</span id ="span">   Related To Life <span>...</span></h1>
+
+<div class="main-quotes">
+    <h1 id = "quote"></h1>
+    <h2>Author: <span id ="authors"></span></h2>
+    <div>
+
+        <button id="button" onclick="newquotes()">Next</button>
+        <button id="reverse" onclick="reversequotes()">back</button>
+    </div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>

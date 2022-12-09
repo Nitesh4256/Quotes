@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}body{
+    width:100vw;
+    height:100vh;
+    /* animation: bgcolor ;
+   animation-duration:5s; */
+/* animation-iteration-count: infinite; */
+
+    background-color: rgb(183, 183, 183);
+}
+/* @keyframes bgcolor {
+    0%{
+        background-color: rgb(228, 166, 50);
+    }20%{
+        background-color: wheat;
+    }
+    40%{
+        background-color:white;
+    }
+    60%{
+        background-color:rgb(230, 227, 211);
+    }
+    80%{
+        background-color: wheat;
+    }
+    100%{
+        background-color: rgb(35,43,43);
+    }
+     */
+
+
+#nav{
+  
+    width:300px;
+    height:100vh;
+    position: absolute;
+ left: -300px;
+ transition: left 0.5s;
+
+    background-color:rgba(40, 37, 37, 0.74);
+}
+ img{
+    width: 40px;
+    height:40px;
+   margin: 20px;
+ 
+    
+   
+}#close{
+    /* background-color: black; */
+    float: right;
+    position: fixed;
+    left: 0;
+}
+ul{
+display:flex;
+flex-direction: column;
+
+
+color:white;
+}
+ul li {
+  
+    display: block;
+padding:2rem 5rem;
+
+list-style: none;
+
+font-size: 2rem;
+}
+h1{
+    /* margin: 1rem 0; */
+    padding-top: 5rem ;
+    color: rgb(106, 92, 92);
+    text-align: center;
+    font-size: 3rem;
+
+} #pan{
+    color:rgba(250, 249, 244, 0.991);
+    font-size: 3rem;
+   
+}span{
+color: gold;
+}
+.main-quotes{
+    padding: 2px;
+    width: 80vw;
+border-radius: 50%;
+    height: 60%;
+    background-color: rgb(48,47,47);
+    margin: 8rem  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}.main-quotes:hover {
+    background-color: white;
+ 
+}.main-quotes:hover  h2{
+    color:black;
+}
+
+button{
+  background-color:white;
+  width: 100px;
+  height: 50px;
+  border-radius: 20%;
+  margin: 2rem;
+font: bold;
+font-size: 2rem;
+cursor: pointer;
+}
+button:hover{
+background-color: burlywood;
+width: 200px;
+transition: width 0.5s;
+color:white;
+
+
+
+
+}p{
+    display: block;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    line-height: 2;
+} h2{
+color:white;
+margin:1rem;
+}
